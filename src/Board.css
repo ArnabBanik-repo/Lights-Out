@@ -16,6 +16,13 @@ tbody {
   font-size: 7rem;
   line-height: 7rem;
 }
+.win,
+.win2 {
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @media screen and (max-width: 600px) {
   .Board {
@@ -24,8 +31,13 @@ tbody {
   .titles {
     display: flex;
     flex-direction: column;
-    font-size: 6rem;
-    line-height: 6rem;
+    font-size: 5.7rem;
+    line-height: 5.7rem;
+  }
+  .win,
+  .win2 {
+    font-size: 2.1rem;
+    line-height: 4rem;
   }
 }
 

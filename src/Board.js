@@ -115,16 +115,9 @@ class Board extends Component {
             </table>
           </div>
         ) : (
-          <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-            }}
-          >
-            <article className="neon">Congratulations! </article>
-            <article className="flux">You won</article>
+          <div className="titles">
+            <article className="neon win">Congratulations! </article>
+            <article className="flux win2">You won</article>
           </div>
         )}
       </div>
