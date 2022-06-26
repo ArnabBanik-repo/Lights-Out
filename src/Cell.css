@@ -1,0 +1,24 @@
+.Cell {
+  height: 5.26rem;
+  width: 5.26rem;
+  background-color: #1e2529;
+  transition: all 300ms ease;
+  border-radius: 3px;
+}
+
+.Cell-lit {
+  background-color: #6dc5ff;
+  box-shadow: 0 0 2px #6dc5ff, 0 0 3px #6dc5ff;
+  transition: all 300ms ease;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .Cell {
+    height: 4.25rem;
+    width: 4.25rem;
+  }
+  .Cell-lit {
+    box-shadow: 0 0 1px #6dc5ff, 0 0 2px #6dc5ff;
+  }
+}
